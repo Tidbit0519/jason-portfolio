@@ -16,6 +16,7 @@ import {
 	unity,
 	java,
 	python,
+	strongmind,
 	accessifiers,
 	familysearch,
 	byuhawaii,
@@ -122,6 +123,19 @@ const technologies = [
 ];
 
 const experiences = [
+	{
+		title: "Associate Software Engineer",
+		company_name: "StrongMind",
+		icon: strongmind,
+		iconBg: "#FFFFFF",
+		date: "March 2025 - Current",
+		points: [
+			"Implemented 1EdTech OneRoster–compliant RESTful APIs to roster and index thousands of student records daily from an external SIS.",
+			"Contributed to migrating Python-based AWS serverless pipelines to a centralized service to reduce cost, operational complexity, and data errors.",
+			"Developed and maintained end - to - end features across a large Rails - based platform, delivering user - facing improvements.",
+			"Implemented SAML IdP - initiated SSO and established integration testing using a headless browser.",
+		],
+	},
 	{
 		title: "Software Engineer (Volunteer)",
 		company_name: "Accessifiers",
