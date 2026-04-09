@@ -12,7 +12,6 @@ import {
 	accessifiers,
 	familysearch,
 	byuhawaii,
-	imi,
 	learncanvasai,
 	ezvending,
 	gladiadog,

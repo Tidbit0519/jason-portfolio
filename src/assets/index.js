@@ -16,15 +16,12 @@ import strongmind from "./experience/strongmind.png";
 import accessifiers from "./experience/accessifiers.png";
 import familysearch from "./experience/familysearch.png";
 import byuhawaii from "./experience/byuhawaii.png";
-import imi from "./experience/imi.png";
 
 import github from "./project/github.png";
 import external from "./project/external.png";
 
 import learncanvasai from "./project/learncanvas-ai.png";
-import hidelivery from "./project/hidelivery.png";
 import ezvending from "./project/ezvending.png";
-import imiproject from "./project/imiproject.png";
 
 import gladiadog from "./project/gladiadog.png";
 import battleship from "./project/battleship.png";
@@ -53,11 +50,8 @@ export {
 	accessifiers,
 	familysearch,
 	byuhawaii,
-	imi,
 	learncanvasai,
-	hidelivery,
 	ezvending,
-	imiproject,
 	gladiadog,
 	battleship,
 	spencer,
