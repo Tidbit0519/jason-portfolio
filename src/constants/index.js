@@ -131,17 +131,6 @@ const experiences = [
 			"Collaborated with UX/UI designers to implement culturally influenced UI components and pages from Figma to increase engagement and outreach of target audience",
 		],
 	},
-	{
-		title: "Project Manager Intern",
-		company_name: "Integrated Micro-Electronics, Inc. (IMI Global)",
-		icon: imi,
-		iconBg: "#383E56",
-		date: "January 2022 - April 2022",
-		points: [
-			"Developed a prototype CRUD web application using XAMP stack to automate the auditing of employees’ training record.",
-			"Pioneered an international internship collaboration between IMI and BYUH and achieving a 100% deliverable rate despite 17-hour time zone difference.",
-		],
-	},
 ];
 
 const testimonials = [
@@ -274,10 +263,4 @@ const projects = [
 	},
 ];
 
-export {
-	languages,
-	technologies,
-	experiences,
-	projects,
-	testimonials,
-};
+export { languages, technologies, experiences, projects, testimonials };
