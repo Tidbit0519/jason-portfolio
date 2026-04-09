@@ -3,6 +3,8 @@ import {
 	css,
 	javascript,
 	reactjs,
+	ruby,
+	rails,
 	csharp,
 	aspnetcore,
 	aws,
@@ -51,6 +53,10 @@ const languages = [
 		icon: javascript,
 	},
 	{
+		name: "Ruby",
+		icon: ruby,
+	},
+	{
 		name: "C#",
 		icon: csharp,
 	},
@@ -58,7 +64,11 @@ const languages = [
 
 const technologies = [
 	{
-		name: "React JS",
+		name: "Ruby on Rails",
+		icon: rails,
+	},
+	{
+		name: "React",
 		icon: reactjs,
 	},
 	{

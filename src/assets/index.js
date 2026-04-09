@@ -5,6 +5,8 @@ import html from "./tech/html.png";
 import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
+import ruby from "./tech/ruby.png";
+import rails from "./tech/rails.png";
 
 import csharp from "./tech/csharp.svg";
 import aspnetcore from "./tech/aspnetcore.png";
@@ -42,6 +44,8 @@ export {
 	css,
 	javascript,
 	reactjs,
+	ruby,
+	rails,
 	csharp,
 	aspnetcore,
 	aws,
