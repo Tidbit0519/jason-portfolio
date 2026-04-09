@@ -97,7 +97,7 @@ const experiences = [
 		company_name: "Accessifiers",
 		icon: accessifiers,
 		iconBg: "#383E56",
-		date: "September 2024 - Current",
+		date: "Jan 2025 - Mar 2025",
 		points: [
 			"Developed a branded learning management system using SASS and Python to reinforce brand identity.",
 			"Developed a scalable LMS prototype on Azure with Docker and Tutor(Open edX).",
