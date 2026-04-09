@@ -14,9 +14,7 @@ import {
 	byuhawaii,
 	imi,
 	learncanvasai,
-	hidelivery,
 	ezvending,
-	imiproject,
 	gladiadog,
 	battleship,
 	spencer,
@@ -173,7 +171,7 @@ const testimonials = [
 	},
 ];
 
-const webProjects = [
+const projects = [
 	{
 		name: "LearnCanvas AI",
 		description:
@@ -213,32 +211,6 @@ const webProjects = [
 		source_code_link: "https://github.com/Tidbit0519/learncanvas-ai",
 	},
 	{
-		name: "HI Delivery",
-		description:
-			'A demo front-end web application that allows users to put their grocery orders online and have them delivered to their homes in North Shore, Oahu. This demo won "The Best Show Award" at BYU-Hawaii\'s Empower Your Dreams 2024 semifinals.',
-		tags: [
-			{
-				name: "React.js",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "MUI",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Google Maps API",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "Stripe API",
-				color: "orange-text-gradient",
-			},
-		],
-		image: hidelivery,
-		link_type: "external",
-		source_code_link: "https://hidelivery.app/",
-	},
-	{
 		name: "EZ Vending",
 		description:
 			"A console program that helps BYU users to locate the nearest vending machines to their current building locations, and also recommend snacks based on their desired vending category and budget, and stores their favorite snacks along with purchase dates which they can retrieve to view or delete later.",
@@ -265,40 +237,6 @@ const webProjects = [
 		source_code_link: "https://github.com/Tidbit0519/EzVending",
 	},
 	{
-		name: "IMI Training Records Automation",
-		description:
-			"A prototype web application using XAMP stack that can create, read, update, and delete training records of IMI employees.",
-		tags: [
-			{
-				name: "HTML",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "CSS",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Bootstrap",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "PHP",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "MySQL",
-				color: "yellow-text-gradient",
-			},
-		],
-		image: imiproject,
-		link_type: "external",
-		source_code_link:
-			"https://www.global-imi.com/index.php/news/imi-and-byu-hawaii-collaborate-first-campus-online-internship-program",
-	},
-];
-
-const gameProjects = [
-	{
 		name: "Battleship",
 		description:
 			"A simple 2D android mobile game where user control a battleship on the center of the screen and shoots any incoming airplanes and submarines to get the highest possible score within the time limit.",
@@ -319,7 +257,7 @@ const gameProjects = [
 	{
 		name: "Gladiadog",
 		description:
-			"An action arcade game where the player controls a dog swordsman and defeats a giant slime in a gladiator arena! There a re a total of 3 rounds, and only the best time is saved! The game is developed as part of my college's Unity game project, and it is still a prototype. Feel free to leave a feedback!",
+			"An action arcade game where the player controls a dog swordsman and defeats a giant slime in a gladiator arena! There are a total of 3 rounds, and only the best time is saved! The game is developed as part of my college's Unity game project, and it is still a prototype. Feel free to leave a feedback!",
 		tags: [
 			{
 				name: "C#",
@@ -340,7 +278,6 @@ export {
 	languages,
 	technologies,
 	experiences,
-	webProjects,
-	gameProjects,
+	projects,
 	testimonials,
 };

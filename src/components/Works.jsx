@@ -5,8 +5,9 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github, external } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { gameProjects, webProjects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { projects } from "../constants";
+
+import { fadeIn } from "../utils/motion";
 
 const ProjectCard = ({
 	name,
@@ -34,7 +35,9 @@ const ProjectCard = ({
 					/>
 				) : (
 					<div className="w-full h-full bg-secondary rounded-2xl">
-						<p className="text-white text-2xl flex justify-center pt-24">Coming Soon...</p>
+						<p className="text-white text-2xl flex justify-center pt-24">
+							Coming Soon...
+						</p>
 					</div>
 				)}
 				<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -99,22 +102,8 @@ const Works = () => {
 			<p className={`${styles.sectionSubText} text-center`}>My work</p>
 			<h2 className={`${styles.sectionHeadText} text-center`}>Projects</h2>
 
-			<div className="w-full flex">
-				<div className="mt-3 text-secondary text-[17px] mx-0 xs:mx-32 text-center">
-					Following projects showcases my skills and experience through real-world
-					examples of my work. Each project is briefly described with links to code
-					repositories and live demos in it. It reflects my ability to solve complex
-					problems, work with different technologies, and manage projects effectively.
-				</div>
-			</div>
-
-			<p
-				className={`${styles.sectionSubText} ${styles.paddingY} flex justify-center items-center`}
-			>
-				Web Development
-			</p>
-			<div className="flex flex-wrap gap-7">
-				{webProjects.map((project, index) =>
+			<div className="mt-20 flex flex-wrap gap-7">
+				{projects.map((project, index) =>
 					!isMobile ? (
 						<motion.div
 							variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -131,34 +120,7 @@ const Works = () => {
 							index={index}
 							{...project}
 						/>
-					)
-				)}
-			</div>
-
-			<p
-				className={`${styles.sectionSubText} ${styles.paddingY} flex justify-center items-center`}
-			>
-				Game Development
-			</p>
-			<div className="flex flex-wrap gap-7">
-				{gameProjects.map((project, index) =>
-					!isMobile ? (
-						<motion.div
-							variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-							key={`project-${index}`}
-						>
-							<ProjectCard
-								index={index}
-								{...project}
-							/>
-						</motion.div>
-					) : (
-						<ProjectCard
-							key={`project-${index}`}
-							index={index}
-							{...project}
-						/>
-					)
+					),
 				)}
 			</div>
 		</>
