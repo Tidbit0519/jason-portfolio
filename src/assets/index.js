@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -46,7 +45,6 @@ import sheryl from "./testimonials/sheryl.jfif";
 import rocket from "./rocket.gif";
 
 export {
-	logo,
 	github,
 	external,
 	menu,
