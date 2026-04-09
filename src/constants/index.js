@@ -20,8 +20,8 @@ import {
 	gladiadog,
 	battleship,
 	spencer,
-	takeyoshi,
-	sheryl,
+	knowlton,
+	jothan,
 } from "../assets";
 
 export const navLinks = [
@@ -83,7 +83,7 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Associate Software Engineer",
+		title: "Software Engineer",
 		company_name: "StrongMind",
 		icon: strongmind,
 		iconBg: "#FFFFFF",
@@ -149,27 +149,27 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
+			"The short time I worked with him I could tell that he will go far in this career, his attitude is amazing and is already learning his style in software engineering!",
+		name: "Jothan Kelepolo",
+		designation: "Full Stack Engineer",
+		company: "Data Surge",
+		image: jothan,
+	},
+	{
+		testimonial:
+			"I had a wonderful time managing Jason on my team. Although only for a few semesters I know that whatever I threw at him, he would try his absolute best to figure out the solution.",
+		name: "Knowlton Itaeeahu",
+		designation: "Senior Enterprise Systems Developer",
+		company: "Brigham Young Uniersity-Hawaii",
+		image: knowlton,
+	},
+	{
+		testimonial:
 			"Jason displayed a remarkable ability to swiftly master React and related technologies and consistently delivering high-quality work.",
 		name: "Spencer Memmott",
 		designation: "Full Stack Engineer",
 		company: "FamilySearch",
 		image: spencer,
-	},
-	{
-		testimonial:
-			"I have had the pleasure of working with Jason on the in-house software development project at the EIS department at BYUH. He is very thorough in everything he does and can be depended upon to get the job done.",
-		name: "Takeyoshi Nitta",
-		designation: "Industry Process Consultant",
-		company: "Dassault Systèmes",
-		image: takeyoshi,
-	},
-	{
-		testimonial:
-			"I can attest that Jason is a brilliant problem-solver, multi-tasker, and team player. He is resilient when it comes to overcoming challenges and staying on top of his assignments.",
-		name: "Sheryl Tania",
-		designation: "Product Engineer",
-		company: "Esri",
-		image: sheryl,
 	},
 ];
 

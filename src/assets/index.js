@@ -30,8 +30,8 @@ import gladiadog from "./project/gladiadog.png";
 import battleship from "./project/battleship.png";
 
 import spencer from "./testimonials/spencer.jpeg";
-import takeyoshi from "./testimonials/takeyoshi.jfif";
-import sheryl from "./testimonials/sheryl.jfif";
+import knowlton from "./testimonials/knowlton.jpeg";
+import jothan from "./testimonials/jothan.jpeg";
 
 import rocket from "./rocket.gif";
 
@@ -61,7 +61,7 @@ export {
 	gladiadog,
 	battleship,
 	spencer,
-	takeyoshi,
-	sheryl,
+	knowlton,
+	jothan,
 	rocket,
 };
