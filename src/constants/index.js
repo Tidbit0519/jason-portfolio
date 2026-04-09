@@ -2,20 +2,10 @@ import {
 	html,
 	css,
 	javascript,
-	typescript,
-	sql,
 	reactjs,
-	nodejs,
 	csharp,
 	aspnetcore,
-	mysql,
-	mongodb,
-	docker,
 	aws,
-	azure,
-	unity,
-	java,
-	python,
 	strongmind,
 	accessifiers,
 	familysearch,
@@ -61,24 +51,8 @@ const languages = [
 		icon: javascript,
 	},
 	{
-		name: "TypeScript",
-		icon: typescript,
-	},
-	{
 		name: "C#",
 		icon: csharp,
-	},
-	{
-		name: "SQL",
-		icon: sql,
-	},
-	{
-		name: "Python",
-		icon: python,
-	},
-	{
-		name: "Java",
-		icon: java,
 	},
 ];
 
@@ -88,37 +62,12 @@ const technologies = [
 		icon: reactjs,
 	},
 	{
-		name: "Node JS",
-		icon: nodejs,
-	},
-
-	{
 		name: "ASP.NET Core",
 		icon: aspnetcore,
 	},
 	{
-		name: "MySQL",
-		icon: mysql,
-	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
-	{
-		name: "Docker",
-		icon: docker,
-	},
-	{
 		name: "AWS",
 		icon: aws,
-	},
-	{
-		name: "Azure",
-		icon: azure,
-	},
-	{
-		name: "Unity",
-		icon: unity,
 	},
 ];
 

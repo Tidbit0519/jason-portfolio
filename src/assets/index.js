@@ -4,22 +4,11 @@ import close from "./close.svg";
 import html from "./tech/html.png";
 import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
-import typescript from "./tech/typescript.png";
-import sql from "./tech/sql.svg";
 import reactjs from "./tech/reactjs.png";
 
-import nodejs from "./tech/nodejs.png";
 import csharp from "./tech/csharp.svg";
 import aspnetcore from "./tech/aspnetcore.png";
-import mysql from "./tech/mysql.png";
-import mongodb from "./tech/mongodb.png";
-import docker from "./tech/docker.png";
 import aws from "./tech/aws.png";
-import azure from "./tech/azure.png";
-
-import unity from "./tech/unity.png";
-import java from "./tech/java.png";
-import python from "./tech/python.png";
 
 import strongmind from "./experience/strongmind.png";
 import accessifiers from "./experience/accessifiers.png";
@@ -52,20 +41,10 @@ export {
 	html,
 	css,
 	javascript,
-	typescript,
-	sql,
 	reactjs,
-	nodejs,
 	csharp,
 	aspnetcore,
-	mysql,
-	mongodb,
-	docker,
 	aws,
-	azure,
-	unity,
-	java,
-	python,
 	strongmind,
 	accessifiers,
 	familysearch,
